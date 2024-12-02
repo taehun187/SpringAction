@@ -12,7 +12,7 @@
 ### **TacoCloud UI 업그레이드**
 - `tacocloud-ui`가 최신 버전으로 업데이트되었습니다.
 - 새로운 UI 컴포넌트와 스타일이 추가되어 사용자 경험이 개선되었습니다.
-```
+
 # Taco Cloud v0.0.6
 
 이 폴더는 **Spring in Action, 5th edition**의 Chapter 6에서 소개된 Taco Cloud 샘플 코드의 소스 코드를 포함하고 있습니다.
