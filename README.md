@@ -2,7 +2,17 @@
 
 ![image](https://github.com/user-attachments/assets/7fc7c1bc-15d1-4e0b-9275-b1e07bea1140)
 
-```markdown
+
+# **샘플 코드 업그레이드 세부사항**
+
+### **Spring Boot 3 버전 업그레이드**
+- 프로젝트를 최신버전인 Spring Boot 3 버전으로 업그레이드하였습니다.
+
+
+### **TacoCloud UI 업그레이드**
+- `tacocloud-ui`가 최신 버전으로 업데이트되었습니다.
+- 새로운 UI 컴포넌트와 스타일이 추가되어 사용자 경험이 개선되었습니다.
+```
 # Taco Cloud v0.0.6
 
 이 폴더는 **Spring in Action, 5th edition**의 Chapter 6에서 소개된 Taco Cloud 샘플 코드의 소스 코드를 포함하고 있습니다.
@@ -21,7 +31,7 @@ Chapter 6부터 Taco Cloud는 다중 모듈 Maven 프로젝트로 나누어져 �
 % ./mvnw clean package
 ```
 
-Maven 빌드는 Angular 클라이언트 코드를 빌드하고 Spring 코드와 함께 패키징합니다. 이를 위해 프로젝트를 빌드하기 전에 Node와 Angular CLI가 설치되어 있어야 합니다. (자세한 내용은 [https://cli.angular.io/](https://cli.angular.io/)를 참고하세요.)
+Maven 빌드는 Angular 클라이언트 코드를 빌드하고 Spring 코드와 함께 패키징합니다. 이를 위해 프로젝트를 빌드하기 전에 Node와 Angular CLI가 설치되어 있어야 합니다. 
 
 프로젝트 빌드가 완료되면 `tacos` 모듈의 실행 가능한 JAR 파일을 실행할 수 있습니다:
 
